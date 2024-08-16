@@ -29,6 +29,9 @@ two_dimensional_array[0][1] = 6;
 
 // So, a "shallow" copy pretty much means that it does not truly copy recursively (only the surface of the item to be copied, and not its children or nested data). That is why its nested data still reference the original's
 // A "deep" copy means it copies a data recursively.
+// To understand about this deeper, one must know how memory works. In JavaScript, primitive data types (strings, numbers, booleans) are always passed around by value,
+// which means that they are always copied when transferred from one context to another (e.g. as an argument to a function), while data types like arrays/objects are, yes,
+// passed by value, but this value is only the references to the data it contains.
 
 // Array.isArray
 // A static method in the Array class. Accepts and argument which is the item that will be
