@@ -45,7 +45,7 @@ two_dimensional_array[0][1] = 6;
 console.log("Array.isArray", Array.isArray(items), "instanceof", items instanceof Array);
 
 // Array.length
-// Gets the total amount of items inside and array one-dimensionally.
+// Gets the total amount of items inside an array one-dimensionally.
 
 // console.log(items.length);
 
