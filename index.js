@@ -67,8 +67,8 @@ const filtered_items = items.filter((item) => {
 // }
 
 // Array.map
-// Will create a new array and fill that array with whatever is
-// returned by the parameter callback function.
+// Will create a new array, and for each item in the array, the parameter callback function will be called.
+// The corresponding item will change to the returned value from he parameter callback function.
 const incremented_items = items.map((item) => {
 	return item + 1;
 });
@@ -82,9 +82,10 @@ const incremented_items = items.map((item) => {
 // }
 
 // Array.reduce
-// Used to leoop through an array and change the value of the second argument
+// This is an accumulator
+// Used to loop through an array and change the value of the second argument
 // based on what is returned by the first parameter callback function.
-// Notice how I provided 0.
+// By default, the value that we are accumulating is 0.
 const sum_of_items = items.reduce((current_value, current_item, _idx) => {
 	// console.log(current_value, current_item);
 	return current_value + current_item;
