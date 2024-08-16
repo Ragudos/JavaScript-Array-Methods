@@ -58,7 +58,7 @@ const filtered_items = items.filter((item) => {
 
 // console.log(filtered_items);
 
-// It is the same as:
+// It is somewhat the same as:
 // const filtered_items = [];
 // for (const item of items) {
 //	if (item < 5) {
