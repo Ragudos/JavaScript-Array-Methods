@@ -34,7 +34,7 @@ two_dimensional_array[0][1] = 6;
 // passed by value, but this value is only the references to the data it contains.
 
 // Array.isArray
-// A static method in the Array class. Accepts and argument which is the item that will be
+// A static method in the Array class. Accepts an argument which is the item that will be
 // checked whether it's an array or not.
 
 // Another way to check whether something is an Array in JavaScript is using the instanceof
